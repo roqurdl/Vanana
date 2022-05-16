@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+}
+
+form div {
+  padding-bottom: 15px;
+}
+form > span,
+#result span:first-child {
+  font-weight: 500;
+}
+form div span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#result {
+  display: flex;
+  flex-direction: column;
+}
+
+#result span:last-child {
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}

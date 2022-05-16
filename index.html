@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="putnum">
+      <div>
+        <span>Generate a number between 0 and</span>
+        <input id="maxnum" type="number" min="0" max="40" required />
+      </div>
+      <span>Guess the number:</span>
+      <input id="guessnum" type="number" min="0" max="40" required />
+      <button>Play !</button>
+    </form>
+    <div id="result" class="hidden">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
